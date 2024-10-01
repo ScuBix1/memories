@@ -1,0 +1,16 @@
+:root{
+    --cell-color: #eeeeee;
+    --cell-size: 50px;
+    --cell-gap: 2px;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+.game table tr td{
+    background-color: var(--cell-color);
+    min-width: var(--cell-size);
+    height: var(--cell-size);
+}
