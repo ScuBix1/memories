@@ -1,0 +1,20 @@
+:root {
+    --cell-color: #eeeeee;
+    --cell-size: 50px;
+    --cell-gap: 5px;
+}
+
+.game table {
+    border-spacing: var(--cell-gap);
+}
+
+.game td {
+    background-color: var(--cell-color);
+    min-width: var(--cell-size);
+    height: var(--cell-size);
+    text-align:center;
+    cursor:pointer;
+    border-radius:3px;
+    align-items:center;
+    justify-content:center;
+}
